@@ -28,7 +28,7 @@ def listUsersRestCall(url,headers):
 	else:
 		raise Exception(theRequest.text)
 
-org = "https://okta.okta.com"
+org = "https://yourOrgID.okta.com"
 apiToken = "yeah right buddy..." 
 
 baseUrl= org+ "/api/v1/"
